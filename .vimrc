@@ -90,3 +90,6 @@ noremap <Up> <NOP>
 noremap <Down> <NOP>
 noremap <Left> <NOP>
 noremap <Right> <NOP>
+" remap ctrl j and k to move faster up and down page
+nnoremap <C-k> <C-u>
+nnoremap <C-j> <C-d>
