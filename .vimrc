@@ -85,3 +85,8 @@ nnoremap <leader>h <Esc>:call ToggleHardMode()<CR>
 map <C-c> "+y<CR>
 :set bg=dark
 set t_Co=256
+" disable arrow keys
+noremap <Up> <NOP>
+noremap <Down> <NOP>
+noremap <Left> <NOP>
+noremap <Right> <NOP>
