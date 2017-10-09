@@ -120,5 +120,5 @@ function editvim(){
 }
 function editzsh(){
   cd
-  vim ~/.zshrc
+  vim ~/Git/dotfiles/.zshrc
 }
