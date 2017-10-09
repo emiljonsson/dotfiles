@@ -99,6 +99,7 @@ function lazygit(){
   git commit -m "$*"
   git push origin master
 }
+alias lg="lazygit"
 function gets(){
   rm main.cpp
   cp ~/Programming/tmp_test_can_be_deleted/main.cpp .
