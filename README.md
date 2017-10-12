@@ -18,5 +18,7 @@ The colors and icons in the terminal is a fairy-tale inspired theme found [here]
 ## usefull shortcuts in terminal
 
 - ctrl + k is the same as cd ..
+- ctrl + j will undo last cd .. (not working yet)
 - lg runs the lazygit function that will run git add, commit ,and push
 - cd will run cd + ls
+
