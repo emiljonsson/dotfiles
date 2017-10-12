@@ -137,3 +137,7 @@ function up_widget() {
 zle -N up_widget
 bindkey "^k" up_widget
 
+function redo(){
+	popd
+} 
+bindkey "^j" redo
