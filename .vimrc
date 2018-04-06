@@ -75,6 +75,11 @@ autocmd VimEnter * wincmd p
 let NERDTreeMinimalUI = 1
 let NERDTreeDirArrows = 1
 
+let @x = '0xj0'
+let @c = '0i#j'
+
+
+
 map <C-n> :NERDTreeToggle<CR>
 autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isTabTree()) | q | endif
 
